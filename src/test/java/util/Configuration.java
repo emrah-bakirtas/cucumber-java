@@ -1,12 +1,11 @@
 package util;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
 public class Configuration {
 
-    private static Configuration instance;
+    private static Configuration instance = new Configuration();
 
     private Properties configProps = new Properties();
 
@@ -18,29 +17,12 @@ public class Configuration {
     private String chromedriverPath;
 
     public static Configuration getInstance() {
-
-        if(instance == null) {
-
-            createInstance();
-        }
-
         return instance;
-    }
-
-    private static synchronized void createInstance() {
-
-        if(instance == null) {
-
-            instance = new Configuration();
-        }
     }
 
     private Configuration() {
 
-        InputStream is = null;
-        try {
-
-            is = ClassLoader.getSystemResourceAsStream("config.properties");
+        try (InputStream is = ClassLoader.getSystemResourceAsStream("config.properties")) {
             configProps.load(is);
 
             this.appUrl = configProps.getProperty("app.url");
@@ -51,15 +33,7 @@ public class Configuration {
             this.chromedriverPath = configProps.getProperty("chromedriver.path");
 
         } catch (Exception e) {
-
             e.printStackTrace();
-        } finally {
-
-            if(is != null) {
-                try {
-                    is.close();
-                } catch (IOException e) {}
-            }
         }
     }
 
