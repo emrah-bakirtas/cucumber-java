@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 111.666 s <<< FAILURE! - in runner.TestRunner
+And I search a winter sleep(| winter sleep | 88 |)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+
+| winter sleep | 88 |  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+
+And I search a the dark knight(| the dark knight | 97 |)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+
+| the dark knight | 97 |  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+

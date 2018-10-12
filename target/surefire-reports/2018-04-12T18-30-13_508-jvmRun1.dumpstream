@@ -1,0 +1,398 @@
+# Created on 2018-04-12T18:30:16.554
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-04-12T18:30:17.923
+Unexpected IOException with stream: S
+
+# Created on 2018-04-12T18:30:17.926
+Unexpected IOException with stream: t
+
+# Created on 2018-04-12T18:30:17.928
+Unexpected IOException with stream: a
+
+# Created on 2018-04-12T18:30:17.931
+Unexpected IOException with stream: r
+
+# Created on 2018-04-12T18:30:17.933
+Unexpected IOException with stream: t
+
+# Created on 2018-04-12T18:30:17.935
+Unexpected IOException with stream: i
+
+# Created on 2018-04-12T18:30:17.937
+Unexpected IOException with stream: n
+
+# Created on 2018-04-12T18:30:17.940
+Unexpected IOException with stream: g
+
+# Created on 2018-04-12T18:30:17.942
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:17.944
+Unexpected IOException with stream: C
+
+# Created on 2018-04-12T18:30:17.946
+Unexpected IOException with stream: h
+
+# Created on 2018-04-12T18:30:17.948
+Unexpected IOException with stream: r
+
+# Created on 2018-04-12T18:30:17.951
+Unexpected IOException with stream: o
+
+# Created on 2018-04-12T18:30:17.953
+Unexpected IOException with stream: m
+
+# Created on 2018-04-12T18:30:17.955
+Unexpected IOException with stream: e
+
+# Created on 2018-04-12T18:30:17.957
+Unexpected IOException with stream: D
+
+# Created on 2018-04-12T18:30:17.959
+Unexpected IOException with stream: r
+
+# Created on 2018-04-12T18:30:17.961
+Unexpected IOException with stream: i
+
+# Created on 2018-04-12T18:30:17.963
+Unexpected IOException with stream: v
+
+# Created on 2018-04-12T18:30:17.966
+Unexpected IOException with stream: e
+
+# Created on 2018-04-12T18:30:17.967
+Unexpected IOException with stream: r
+
+# Created on 2018-04-12T18:30:17.969
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:17.971
+Unexpected IOException with stream: 2
+
+# Created on 2018-04-12T18:30:17.973
+Unexpected IOException with stream: .
+
+# Created on 2018-04-12T18:30:17.976
+Unexpected IOException with stream: 3
+
+# Created on 2018-04-12T18:30:17.978
+Unexpected IOException with stream: 5
+
+# Created on 2018-04-12T18:30:17.980
+Unexpected IOException with stream: .
+
+# Created on 2018-04-12T18:30:17.982
+Unexpected IOException with stream: 5
+
+# Created on 2018-04-12T18:30:17.985
+Unexpected IOException with stream: 2
+
+# Created on 2018-04-12T18:30:17.987
+Unexpected IOException with stream: 8
+
+# Created on 2018-04-12T18:30:17.989
+Unexpected IOException with stream: 1
+
+# Created on 2018-04-12T18:30:17.991
+Unexpected IOException with stream: 6
+
+# Created on 2018-04-12T18:30:17.993
+Unexpected IOException with stream: 1
+
+# Created on 2018-04-12T18:30:18.001
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:18.003
+Unexpected IOException with stream: (
+
+# Created on 2018-04-12T18:30:18.005
+Unexpected IOException with stream: 5
+
+# Created on 2018-04-12T18:30:18.007
+Unexpected IOException with stream: b
+
+# Created on 2018-04-12T18:30:18.009
+Unexpected IOException with stream: 8
+
+# Created on 2018-04-12T18:30:18.011
+Unexpected IOException with stream: 2
+
+# Created on 2018-04-12T18:30:18.013
+Unexpected IOException with stream: f
+
+# Created on 2018-04-12T18:30:18.015
+Unexpected IOException with stream: 2
+
+# Created on 2018-04-12T18:30:18.017
+Unexpected IOException with stream: d
+
+# Created on 2018-04-12T18:30:18.019
+Unexpected IOException with stream: 2
+
+# Created on 2018-04-12T18:30:18.021
+Unexpected IOException with stream: a
+
+# Created on 2018-04-12T18:30:18.024
+Unexpected IOException with stream: a
+
+# Created on 2018-04-12T18:30:18.025
+Unexpected IOException with stream: e
+
+# Created on 2018-04-12T18:30:18.027
+Unexpected IOException with stream: 0
+
+# Created on 2018-04-12T18:30:18.029
+Unexpected IOException with stream: c
+
+# Created on 2018-04-12T18:30:18.031
+Unexpected IOException with stream: a
+
+# Created on 2018-04-12T18:30:18.033
+Unexpected IOException with stream: 2
+
+# Created on 2018-04-12T18:30:18.036
+Unexpected IOException with stream: 4
+
+# Created on 2018-04-12T18:30:18.038
+Unexpected IOException with stream: b
+
+# Created on 2018-04-12T18:30:18.039
+Unexpected IOException with stream: 8
+
+# Created on 2018-04-12T18:30:18.041
+Unexpected IOException with stream: 7
+
+# Created on 2018-04-12T18:30:18.043
+Unexpected IOException with stream: 7
+
+# Created on 2018-04-12T18:30:18.045
+Unexpected IOException with stream: 0
+
+# Created on 2018-04-12T18:30:18.047
+Unexpected IOException with stream: 0
+
+# Created on 2018-04-12T18:30:18.049
+Unexpected IOException with stream: 9
+
+# Created on 2018-04-12T18:30:18.051
+Unexpected IOException with stream: 2
+
+# Created on 2018-04-12T18:30:18.053
+Unexpected IOException with stream: 0
+
+# Created on 2018-04-12T18:30:18.055
+Unexpected IOException with stream: 0
+
+# Created on 2018-04-12T18:30:18.057
+Unexpected IOException with stream: c
+
+# Created on 2018-04-12T18:30:18.059
+Unexpected IOException with stream: e
+
+# Created on 2018-04-12T18:30:18.061
+Unexpected IOException with stream: d
+
+# Created on 2018-04-12T18:30:18.063
+Unexpected IOException with stream: 9
+
+# Created on 2018-04-12T18:30:18.066
+Unexpected IOException with stream: 0
+
+# Created on 2018-04-12T18:30:18.067
+Unexpected IOException with stream: 6
+
+# Created on 2018-04-12T18:30:18.069
+Unexpected IOException with stream: 5
+
+# Created on 2018-04-12T18:30:18.071
+Unexpected IOException with stream: a
+
+# Created on 2018-04-12T18:30:18.073
+Unexpected IOException with stream: 7
+
+# Created on 2018-04-12T18:30:18.075
+Unexpected IOException with stream: 7
+
+# Created on 2018-04-12T18:30:18.077
+Unexpected IOException with stream: 2
+
+# Created on 2018-04-12T18:30:18.079
+Unexpected IOException with stream: e
+
+# Created on 2018-04-12T18:30:18.081
+Unexpected IOException with stream: 7
+
+# Created on 2018-04-12T18:30:18.083
+Unexpected IOException with stream: 3
+
+# Created on 2018-04-12T18:30:18.087
+Unexpected IOException with stream: )
+
+# Created on 2018-04-12T18:30:18.089
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:18.091
+Unexpected IOException with stream: o
+
+# Created on 2018-04-12T18:30:18.093
+Unexpected IOException with stream: n
+
+# Created on 2018-04-12T18:30:18.095
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:18.097
+Unexpected IOException with stream: p
+
+# Created on 2018-04-12T18:30:18.100
+Unexpected IOException with stream: o
+
+# Created on 2018-04-12T18:30:18.102
+Unexpected IOException with stream: r
+
+# Created on 2018-04-12T18:30:18.104
+Unexpected IOException with stream: t
+
+# Created on 2018-04-12T18:30:18.105
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:18.107
+Unexpected IOException with stream: 4
+
+# Created on 2018-04-12T18:30:18.110
+Unexpected IOException with stream: 7
+
+# Created on 2018-04-12T18:30:18.112
+Unexpected IOException with stream: 4
+
+# Created on 2018-04-12T18:30:18.114
+Unexpected IOException with stream: 9
+
+# Created on 2018-04-12T18:30:18.116
+Unexpected IOException with stream: 0
+
+# Created on 2018-04-12T18:30:18.118
+Unexpected IOException with stream: 
+
+# Created on 2018-04-12T18:30:18.120
+Unexpected IOException with stream: 
+
+
+# Created on 2018-04-12T18:30:18.122
+Unexpected IOException with stream: O
+
+# Created on 2018-04-12T18:30:18.125
+Unexpected IOException with stream: n
+
+# Created on 2018-04-12T18:30:18.127
+Unexpected IOException with stream: l
+
+# Created on 2018-04-12T18:30:18.129
+Unexpected IOException with stream: y
+
+# Created on 2018-04-12T18:30:18.131
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:18.133
+Unexpected IOException with stream: l
+
+# Created on 2018-04-12T18:30:18.135
+Unexpected IOException with stream: o
+
+# Created on 2018-04-12T18:30:18.137
+Unexpected IOException with stream: c
+
+# Created on 2018-04-12T18:30:18.139
+Unexpected IOException with stream: a
+
+# Created on 2018-04-12T18:30:18.141
+Unexpected IOException with stream: l
+
+# Created on 2018-04-12T18:30:18.143
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:18.145
+Unexpected IOException with stream: c
+
+# Created on 2018-04-12T18:30:18.148
+Unexpected IOException with stream: o
+
+# Created on 2018-04-12T18:30:18.151
+Unexpected IOException with stream: n
+
+# Created on 2018-04-12T18:30:18.153
+Unexpected IOException with stream: n
+
+# Created on 2018-04-12T18:30:18.155
+Unexpected IOException with stream: e
+
+# Created on 2018-04-12T18:30:18.156
+Unexpected IOException with stream: c
+
+# Created on 2018-04-12T18:30:18.159
+Unexpected IOException with stream: t
+
+# Created on 2018-04-12T18:30:18.161
+Unexpected IOException with stream: i
+
+# Created on 2018-04-12T18:30:18.162
+Unexpected IOException with stream: o
+
+# Created on 2018-04-12T18:30:18.164
+Unexpected IOException with stream: n
+
+# Created on 2018-04-12T18:30:18.166
+Unexpected IOException with stream: s
+
+# Created on 2018-04-12T18:30:18.168
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:18.170
+Unexpected IOException with stream: a
+
+# Created on 2018-04-12T18:30:18.172
+Unexpected IOException with stream: r
+
+# Created on 2018-04-12T18:30:18.174
+Unexpected IOException with stream: e
+
+# Created on 2018-04-12T18:30:18.176
+Unexpected IOException with stream:  
+
+# Created on 2018-04-12T18:30:18.178
+Unexpected IOException with stream: a
+
+# Created on 2018-04-12T18:30:18.180
+Unexpected IOException with stream: l
+
+# Created on 2018-04-12T18:30:18.182
+Unexpected IOException with stream: l
+
+# Created on 2018-04-12T18:30:18.184
+Unexpected IOException with stream: o
+
+# Created on 2018-04-12T18:30:18.186
+Unexpected IOException with stream: w
+
+# Created on 2018-04-12T18:30:18.188
+Unexpected IOException with stream: e
+
+# Created on 2018-04-12T18:30:18.190
+Unexpected IOException with stream: d
+
+# Created on 2018-04-12T18:30:18.192
+Unexpected IOException with stream: .
+
+# Created on 2018-04-12T18:30:18.194
+Unexpected IOException with stream: 
+
+# Created on 2018-04-12T18:30:18.196
+Unexpected IOException with stream: 
+
+
