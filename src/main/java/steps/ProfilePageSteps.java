@@ -35,14 +35,14 @@ public class ProfilePageSteps extends BasePage {
     public void iEnterNameAsAndSurnameAsAndEmailAsAndCityAs(String name, String surname, String email, String city) {
 
         fillInputField(UP_INPUT_FNAME_CSS_SELECTOR, name, false);
-        fillInputField(UP_INPUT_LNAME_CSS_SELECTOR, surname , false);
+        fillInputField(UP_INPUT_LNAME_CSS_SELECTOR, surname, false);
         fillInputField(UP_INPUT_EMAIL_CSS_SELECTOR, email, false);
         fillInputField(UP_INPUT_CITY_CSS_SELECTOR, city, false);
         clickElement(UP_UPDATE_SUBMIT_CSS_SELECTOR);
     }
 
     @Then("^I should see username as \"([^\"]*)\" on the profile page$")
-    public void iShouldSeeUsernameAsOnTheProfilePage(String username){
+    public void iShouldSeeUsernameAsOnTheProfilePage(String username) {
 
         Assert.assertEquals(username, getTextOfElement(UP_USERNAME_ID_CSS_SELECTOR));
     }

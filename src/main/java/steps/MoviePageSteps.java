@@ -16,9 +16,9 @@ public class MoviePageSteps extends BasePage {
     }
 
     @And("^I vote for the movie with ([^\"]*)$")
-    public void iVoteForTheMovieWithScore(String movieScore){
+    public void iVoteForTheMovieWithScore(String movieScore) {
 
-        if (isElementExist(FI_EDITSCORE_LINK_CSS_SELECTOR)){
+        if (isElementExist(FI_EDITSCORE_LINK_CSS_SELECTOR)) {
 
             clickElement(FI_EDITSCORE_LINK_CSS_SELECTOR);
         }

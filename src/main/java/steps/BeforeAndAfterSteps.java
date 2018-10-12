@@ -23,7 +23,7 @@ public class BeforeAndAfterSteps {
     private static final int DEFAULT_WAIT = 10;
 
     @Before
-    public void setUp(){
+    public void setUp() {
 
         System.setProperty("webdriver.chrome.driver", config.getChromedriverPath());
 
@@ -33,7 +33,7 @@ public class BeforeAndAfterSteps {
     }
 
     @After
-    public void tearDown(){
+    public void tearDown() {
 
         driver.quit();
     }

@@ -14,25 +14,25 @@ public class MainPageSteps extends BasePage {
     }
 
     @Given("^I click login link$")
-    public void iClickLoginLink(){
+    public void iClickLoginLink() {
 
         clickElement(I_SIGNIN_LINK_CSS_SELECTOR);
     }
 
     @Given("^I navigate to the app$")
-    public void iNavigateToTheApp(){
+    public void iNavigateToTheApp() {
 
         navigateTo();
     }
 
     @And("^I log out$")
-    public void iLogOut(){
+    public void iLogOut() {
 
         clickElement(I_SIGNOUT_LINK_CSS_SELECTOR);
     }
 
     @And("^I search a ([^\"]*)$")
-    public void iSearchAMovie(String movieName){
+    public void iSearchAMovie(String movieName) {
 
         fillInputField(I_SEARCHBOX_CSS_SELECTOR, movieName, true);
     }

@@ -15,7 +15,7 @@ import static steps.BeforeAndAfterSteps.getDriver;
 
 public class BasePage {
 
-    protected WebDriver     driver;
+    protected WebDriver driver;
     protected Configuration config;
     protected WebDriverWait wait;
 
