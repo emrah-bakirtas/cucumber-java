@@ -11,15 +11,11 @@ public class Configuration {
     private Properties configProps = new Properties();
 
     private String appUrl;
-    private String excelInputPath;
-    private String excelOutputPath;
-    private String runSheetName;
-    private String resultSheetName;
     private String chromedriverPath;
 
     public static Configuration getInstance() {
 
-        if(instance == null) {
+        if (instance == null) {
 
             createInstance();
         }
@@ -29,7 +25,7 @@ public class Configuration {
 
     private static synchronized void createInstance() {
 
-        if(instance == null) {
+        if (instance == null) {
 
             instance = new Configuration();
         }
@@ -44,10 +40,6 @@ public class Configuration {
             configProps.load(is);
 
             this.appUrl = configProps.getProperty("app.url");
-            this.excelInputPath = configProps.getProperty("excel.input.path");
-            this.excelOutputPath = configProps.getProperty("excel.output.path");
-            this.runSheetName = configProps.getProperty("run.sheet.name");
-            this.resultSheetName = configProps.getProperty("result.sheet.name");
             this.chromedriverPath = configProps.getProperty("chromedriver.path");
 
         } catch (Exception e) {
@@ -55,29 +47,21 @@ public class Configuration {
             e.printStackTrace();
         } finally {
 
-            if(is != null) {
+            if (is != null) {
                 try {
                     is.close();
-                } catch (IOException e) {}
+                } catch (IOException e) {
+                }
             }
         }
     }
 
     public String getAppUrl() {
+
         return appUrl;
     }
 
-    public String getExcelInputPath() {
-        return excelInputPath;
+    public String getChromedriverPath() {
+        return chromedriverPath;
     }
-
-    public String getExcelOutputPath() {
-        return excelOutputPath;
-    }
-
-    public String getRunSheetName(){ return runSheetName; }
-
-    public String getResultSheetName(){ return resultSheetName; }
-
-    public String getChromedriverPath(){ return chromedriverPath; }
 }
