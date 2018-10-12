@@ -79,9 +79,7 @@ public class BasePage {
             element.clear();
             element.sendKeys(text);
 
-            if (pressEnter) {
-                element.sendKeys(Keys.ENTER);
-            }
+            if (pressEnter) element.sendKeys(Keys.ENTER);
         }
     }
 
