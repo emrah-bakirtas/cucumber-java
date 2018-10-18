@@ -6,8 +6,6 @@ import cucumber.api.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
-import static constant.MoviePageConstant.*;
-
 public class MoviePageSteps extends BasePage {
 
     private static final By FI_EDITSCORE_LINK_CSS_SELECTOR = By.cssSelector("#fi_editscore_link");

@@ -4,8 +4,6 @@ import base.BasePage;
 import cucumber.api.java.en.*;
 import org.openqa.selenium.By;
 
-import static constant.MainPageConstant.*;
-
 public class MainPageSteps extends BasePage {
 
     private static final By I_SIGNIN_LINK_CSS_SELECTOR = By.cssSelector("#i_signin_link");
