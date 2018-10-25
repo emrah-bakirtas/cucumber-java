@@ -5,8 +5,6 @@ import cucumber.api.java.en.*;
 import org.junit.Assert;
 
 import static constant.ProfilePageConstant.*;
-import static constant.ProfilePageConstant.UP_INPUT_PSWD2_CSS_SELECTOR;
-import static constant.ProfilePageConstant.UP_PSWDUPDATE_SUBMIT_CSS_SELECTOR;
 
 public class ProfilePageSteps extends BasePage {
 
