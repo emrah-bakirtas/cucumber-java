@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public class Configuration {
 
-    private static Configuration instance = new Configuration();
+    private static final Configuration instance = new Configuration();
 
     private Properties configProps = new Properties();
 
