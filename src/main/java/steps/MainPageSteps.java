@@ -2,10 +2,14 @@ package steps;
 
 import base.BasePage;
 import cucumber.api.java.en.*;
-
-import static constant.MainPageConstant.*;
+import org.openqa.selenium.By;
 
 public class MainPageSteps extends BasePage {
+
+    private static final By I_SIGNIN_LINK_CSS_SELECTOR = By.cssSelector("#i_signin_link");
+    private static final By I_SEARCHBOX_CSS_SELECTOR = By.cssSelector("#i_searchform .i_searchbox");
+    private static final By I_USERNAME_LINK_CSS_SELECTOR = By.cssSelector("#i_loginleft #i_username_link");
+    private static final By I_SIGNOUT_LINK_CSS_SELECTOR = By.cssSelector("#i_signout_link");
 
     @When("^I click username link$")
     public void iClickUsernameLink() {

@@ -37,4 +37,9 @@ public class Configuration {
     public String getChromedriverPath() {
         return chromedriverPath;
     }
+
+    public boolean isBrowserVisible(){
+        String isVisible = configProps.getProperty("browser.visible","false");
+        return Boolean.valueOf(isVisible);
+    }
 }
