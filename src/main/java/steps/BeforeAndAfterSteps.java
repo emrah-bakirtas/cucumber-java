@@ -18,9 +18,9 @@ public class BeforeAndAfterSteps {
         BeforeAndAfterSteps.driver = driver;
     }
 
-    private static WebDriver driver;
-    private static Configuration config = Configuration.getInstance();
-    private static final int DEFAULT_WAIT = 10;
+    private static       WebDriver     driver;
+    private static final Configuration config       = Configuration.getInstance();
+    private static final int           DEFAULT_WAIT = 10;
 
     @Before
     public void setUp() {
